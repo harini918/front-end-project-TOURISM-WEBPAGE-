@@ -1,0 +1,95 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    outline: none; border:none;
+    text-decoration: none; 
+}
+html{
+    font-size: 62.5%;                                                                      
+}
+section{
+padding:2rem 9%;
+}
+.heading{
+text-align: center;
+padding:2.5rem 0
+}
+.heading span{
+font-size: 3.5rem;
+background:rgba(255, 165, 0,.2);
+color:orange;
+border-radius: .5rem;
+padding:.2rem 1rem;
+}
+
+.btn{
+margin-top: 1rem;
+background:orange;
+color:#fff;
+padding:.8rem 3rem;
+border:.2rem solid orange;
+cursor: pointer;
+font-size: 1.7rem;
+}
+
+.btn:hover{
+background:rgba(255, 165, 0,.2);
+color:orange;
+}
+.destination .about{
+    padding-top: 50px;
+}
+.destination .munnar{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    gap:2rem;
+  }
+  
+  .destination .munnar .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgb(245, 245, 121);
+  }
+  
+  .destination .munnar .box img{
+    height: 25rem;
+    width:100%;
+  }
+  
+  .destination .munnar .box .content{
+    padding:2rem;
+  }
+  
+  .destination .munnar.box .content h3{
+    font-size:2rem;
+    color:#333;
+  }
+  
+  .destination .munnar .box .content h3 i{
+    color:orange;
+  }
+  
+  .destination .munnar .box .content p{
+    font-size:1.7rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .destination .munnar .box .content .stars i{
+    font-size:1.7rem;
+    color:orange;
+  }
+  
+  .destination .munnar .box .content .price{
+    font-size: 2rem;
+    color:#333;
+    padding-top: 1rem;
+  }
+  
+  .destination .munnar .box .content .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  }
